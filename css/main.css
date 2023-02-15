@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+* header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+* header .header {
+  font-size: 2rem;
+}
+
+* header .button {
+  background: #79e0a9;
+  border-radius: 20px;
+  width: 6rem;
+  height: 2.5rem;
+  text-transform: uppercase;
+}
+
+* header .button:hover {
+  cursor: pointer;
+  background-color: #0ea6a1;
+}
+
+* .levels {
+  width: 8rem;
+  height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: rows;
+          flex-direction: rows;
+}
+
+* .levels .level {
+  width: 100%;
+  background-color: #44dfc0;
+  color: white;
+  margin-right: 3%;
+}
+
+.active {
+  background-color: red;
+}
+
+.canvas {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4dccef), to(#e6e6b4));
+  background: linear-gradient(#4dccef, #e6e6b4);
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=main.css.map */
